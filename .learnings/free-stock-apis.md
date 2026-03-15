@@ -138,20 +138,101 @@ http://quotes.money.163.com/service/chddata.html?code=0600000&start=20240101&end
 
 ---
 
+## 5. Baostock（强烈推荐）
+
+### 特点
+- ✅ **完全免费，无需注册**
+- ✅ **数据全面**：股票、指数、基金、财务数据
+- ✅ **Python 原生支持**
+- ✅ **历史数据完整**（包括已退市股票）
+- ✅ **支持复权数据**
+
+### 安装
+```bash
+pip install baostock
+```
+
+### 主要功能
+
+#### 获取 K线数据
+```python
+import baostock as bs
+
+# 登录
+bs.login()
+
+# 获取日 K线
+rs = bs.query_history_k_data_plus('sh.600000',
+    'date,code,open,high,low,close,volume,amount,turn,pctChg',
+    start_date='2024-01-01', end_date='2024-12-31',
+    frequency='d', adjustflag='3')
+
+# 获取数据
+data = []
+while (rs.error_code == '0') & rs.next():
+    data.append(rs.get_row_data())
+
+# 登出
+bs.logout()
+```
+
+#### 获取财务数据
+```python
+# 季频盈利能力
+rs = bs.query_profit_data(code='sh.600000', year=2024, quarter=3)
+
+# 资产负债表
+rs = bs.query_balance_data(code='sh.600000', year=2024, quarter=3)
+
+# 现金流量表
+rs = bs.query_cash_flow_data(code='sh.600000', year=2024, quarter=3)
+```
+
+#### 获取指数成分股
+```python
+# 沪深300
+rs = bs.query_hs300_stocks()
+
+# 上证50
+rs = bs.query_sz50_stocks()
+
+# 中证500
+rs = bs.query_zz500_stocks()
+```
+
+#### 获取股票列表
+```python
+rs = bs.query_all_stock(day='2025-03-14')
+```
+
+#### 获取交易日历
+```python
+rs = bs.query_trade_dates(start_date='2025-01-01', end_date='2025-12-31')
+```
+
+---
+
 ## 推荐方案
 
-### 实时行情
+### 实时行情（09:30 竞价分析）
 | 优先级 | 数据源 | 用途 |
 |-------|-------|------|
-| 1 | 新浪财经 | 实时价格、涨跌幅 |
+| 1 | 新浪财经 | 实时价格、五档盘口 |
 | 2 | 腾讯财经 | 备用/批量查询 |
 | 3 | 东方财富 | 资金流向 |
 
-### 历史数据
+### 历史数据（复盘分析）
 | 优先级 | 数据源 | 用途 |
 |-------|-------|------|
-| 1 | 网易财经 | K线数据、复权 |
-| 2 | 新浪财经 | 分时数据 |
+| 1 | **Baostock** | **K线数据、财务数据、指数成分股** |
+| 2 | 网易财经 | K线数据、复权 |
+| 3 | 新浪财经 | 分时数据 |
+
+### 基本面数据
+| 优先级 | 数据源 | 用途 |
+|-------|-------|------|
+| 1 | **Baostock** | **财务报表、盈利能力** |
+| 2 | Tushare（需积分） | 详细财务数据 |
 
 ### 竞价数据（09:25-09:30）
 | 优先级 | 数据源 | 用途 |
