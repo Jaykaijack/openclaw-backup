@@ -6,6 +6,12 @@
       "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
       "source": "skillhub",
       "version": "1.0.11"
+    },
+    "tushare-data": {
+      "name": "Tushare",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=tushare-data",
+      "source": "skillhub",
+      "version": "1.0.7"
     }
   }
 }
