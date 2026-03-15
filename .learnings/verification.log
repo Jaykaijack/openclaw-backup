@@ -1,0 +1,3 @@
+{"time": "2026-03-15T18:55:24.347762", "code": "601985", "verified": true, "errors": [], "data": {"code": "601985", "name": "中国核电", "price": 9.24, "change_pct": 0.87, "open": 9.17, "high": 9.3, "low": 9.08, "close": 9.16, "volume": 3668430, "timestamp": "2026-03-15T18:55:24.347753"}}
+{"time": "2026-03-15T18:55:24.780328", "code": "601985", "verified": false, "errors": ["名称不匹配: 实际\"中国核电\" != 预期\"招商银行\""], "data": null}
+{"time": "2026-03-15T18:55:25.240817", "code": "999999", "verified": false, "errors": ["代码不存在或已退市"], "data": null}
