@@ -5,6 +5,51 @@
 
 ---
 
+## 🤖 技能调用规范（必读）
+
+每次生成报告时，**必须自动调用以下技能**：
+
+### 技能调用映射表
+
+| 报告类型 | 必调技能 | 调用方式 |
+|---------|---------|---------|
+| 盘前预热 | `xfyun-search` + `akshare` | 搜索隔夜新闻 + 获取行情数据 |
+| 竞价分析 | `akshare` + `market-sentiment` | 获取竞价数据 + 情绪分析 |
+| 午盘校准 | `akshare` + `stock-research` | 实时行情 + 持仓分析 |
+| 收盘复盘 | `akshare` + `stock-review` + `hot-finder` | 全天数据 + 复盘 + 热点 |
+| 行业研报 | `industry-report` + `xfyun-search` | 自动生成研报 |
+| 资讯报告 | `news-report` + `xfyun-search` | 聚合资讯生成报告 |
+| 股票分析 | `stock-research` + `akshare` + `tushare-data` | 多维度分析 |
+
+### 技能路径（直接调用）
+
+```
+~/.openclaw/workspace/skills/xfyun-search/scripts/search.py
+~/.openclaw/workspace/skills/akshare/
+~/.openclaw/workspace/skills/market-sentiment/
+~/.openclaw/workspace/skills/stock-research/
+~/.openclaw/workspace/skills/stock-review/
+~/.openclaw/workspace/skills/hot-finder/
+~/.openclaw/workspace/skills/industry-report/
+~/.openclaw/workspace/skills/news-report/
+~/.openclaw/workspace/skills/tushare-data/
+```
+
+### 调用示例
+
+```bash
+# 搜索新闻
+python3 ~/.openclaw/workspace/skills/xfyun-search/scripts/search.py "关键词" --limit 10
+
+# 获取行情数据
+python3 ~/.openclaw/workspace/skills/akshare/scripts/xxx.py
+
+# 生成行业研报
+python3 ~/.openclaw/workspace/skills/industry-report/scripts/generate.py
+```
+
+---
+
 ## 09:00 - 情绪雷达 Agent 启动（盘前预热）
 
 ### 任务清单
@@ -13,6 +58,10 @@
 - [ ] 过滤隔夜消息（S级/A级/B级）
 - [ ] 生成情绪水位定性
 - [ ] 给出初步策略方向
+
+### 必调技能
+- `xfyun-search`：搜索隔夜新闻、政策、外盘
+- `akshare`：获取涨跌停数据、连板梯队
 
 ### 输出目标
 通过飞书发送《二郎盘前预热》简报
@@ -29,6 +78,10 @@
 - [ ] 识别竞价异常（天地板/地天板预警、巨量高开/低开）
 - [ ] 更新竞价红绿灯（🔴🟡🟢）
 - [ ] 修正 09:00 初步判断，给出最终策略
+
+### 必调技能
+- `akshare`：获取竞价数据
+- `market-sentiment`：分析市场情绪
 
 ### 输出目标
 通过飞书发送《二郎竞价分析报告》
@@ -80,6 +133,11 @@
 - [ ] 持仓体检（量价背离检测）
 - [ ] 给出下午操作纪律
 
+### 必调技能
+- `akshare`：获取实时行情
+- `stock-research`：持仓股分析
+- `xfyun-search`：搜索午间新闻
+
 ### 输出目标
 通过飞书发送《二郎午盘校准》报告
 
@@ -96,12 +154,22 @@
 - [ ] 记录今日败笔/神来之笔
 - [ ] 更新准确率追踪表
 
+### 必调技能
+- `akshare`：获取全天行情数据
+- `stock-review`：复盘分析
+- `hot-finder`：热点挖掘
+- `xfyun-search`：搜索收盘新闻、龙虎榜
+
 ### 输出目标
 通过飞书发送《二郎收盘复盘》报告
 
 ---
 
 ## 23:00 - 系统维护
+
+### 必调技能
+- `self-improving-agent`：自我进化、记录学习
+- `industry-report`：生成深度研报（如需要）
 
 ### 备份内容
 1. **主要配置文件**
