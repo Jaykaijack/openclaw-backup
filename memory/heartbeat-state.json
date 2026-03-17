@@ -1,0 +1,17 @@
+{
+  "lastChecks": {
+    "preMarket": null,
+    "auction": null,
+    "noonCheck": null,
+    "review": null,
+    "maintenance": "2026-03-17T23:50:00"
+  },
+  "lastHeartbeat": "2026-03-18T00:36:00",
+  "todayTasks": {
+    "preMarket": false,
+    "auction": false,
+    "noonCheck": false,
+    "review": false,
+    "maintenance": true
+  }
+}

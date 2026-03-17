@@ -1,0 +1,65 @@
+{
+  "trades": [
+    {
+      "id": "T20260318014548",
+      "date": "2026-03-18",
+      "stock_code": "000001",
+      "stock_name": "平安银行",
+      "trade_type": "买入",
+      "price": 10.5,
+      "quantity": 1000,
+      "reason": "情绪修复，板块强势",
+      "emotion": "谨慎乐观",
+      "result": "待验证",
+      "profit_pct": null,
+      "review": "",
+      "lessons": [],
+      "created_at": "2026-03-18T01:45:48.194224"
+    },
+    {
+      "id": "T20260318014628",
+      "date": "2026-03-18",
+      "stock_code": "000001",
+      "stock_name": "平安银行",
+      "trade_type": "买入",
+      "price": 10.5,
+      "quantity": 1000,
+      "reason": "情绪修复，板块强势",
+      "emotion": "谨慎乐观",
+      "result": "待验证",
+      "profit_pct": null,
+      "review": "",
+      "lessons": [],
+      "created_at": "2026-03-18T01:46:28.003759"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "E20260318014548",
+      "date": "2026-03-18",
+      "category": "情绪判断",
+      "situation": "昨日涨停股竞价差，但权重股走强",
+      "action": "判断为冰点，建议防守",
+      "outcome": "实际市场修复，错过机会",
+      "analysis": "只看小票情绪，忽略权重股",
+      "insight": "退潮期≠冰点，需区分大小票情绪",
+      "is_positive": false,
+      "usage_count": 0,
+      "created_at": "2026-03-18T01:45:48.194351"
+    },
+    {
+      "id": "E20260318014628",
+      "date": "2026-03-18",
+      "category": "情绪判断",
+      "situation": "昨日涨停股竞价差，但权重股走强",
+      "action": "判断为冰点，建议防守",
+      "outcome": "实际市场修复，错过机会",
+      "analysis": "只看小票情绪，忽略权重股",
+      "insight": "退潮期≠冰点，需区分大小票情绪",
+      "is_positive": false,
+      "usage_count": 0,
+      "created_at": "2026-03-18T01:46:28.003947"
+    }
+  ],
+  "updated_at": "2026-03-18T01:46:28.003956"
+}
