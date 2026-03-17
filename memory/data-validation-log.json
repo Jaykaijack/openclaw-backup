@@ -1,0 +1,97 @@
+{
+  "history": [
+    {
+      "passed": true,
+      "source": "akshare",
+      "checks": {
+        "level_check": true,
+        "reliability_check": true,
+        "frequency_check": true,
+        "status_check": true
+      },
+      "errors": [],
+      "warnings": [],
+      "timestamp": "2026-03-18T00:17:50.661375"
+    },
+    {
+      "passed": true,
+      "source": "sina",
+      "checks": {
+        "level_check": true,
+        "reliability_check": true,
+        "frequency_check": true,
+        "status_check": true
+      },
+      "errors": [],
+      "warnings": [],
+      "timestamp": "2026-03-18T00:17:50.661494"
+    },
+    {
+      "passed": false,
+      "source": "guba",
+      "checks": {
+        "level_check": true,
+        "reliability_check": false,
+        "frequency_check": true,
+        "status_check": true
+      },
+      "errors": [
+        "数据源 guba 历史可靠性 65% 低于80%"
+      ],
+      "warnings": [
+        "数据源 guba 为C级，可信度较低"
+      ],
+      "timestamp": "2026-03-18T00:17:50.661595"
+    },
+    {
+      "passed": true,
+      "source": "cross_validation",
+      "checks": {
+        "price_match": true,
+        "volume_match": true
+      },
+      "errors": [],
+      "warnings": [],
+      "timestamp": "2026-03-18T00:17:50.662274"
+    },
+    {
+      "passed": true,
+      "source": "akshare",
+      "checks": {
+        "level_check": true,
+        "reliability_check": true,
+        "frequency_check": true,
+        "status_check": true
+      },
+      "errors": [],
+      "warnings": [],
+      "timestamp": "2026-03-18T00:24:15.674505"
+    },
+    {
+      "passed": true,
+      "source": "sina",
+      "checks": {
+        "level_check": true,
+        "reliability_check": true,
+        "frequency_check": true,
+        "status_check": true
+      },
+      "errors": [],
+      "warnings": [],
+      "timestamp": "2026-03-18T00:24:15.674636"
+    },
+    {
+      "passed": true,
+      "source": "eastmoney",
+      "checks": {
+        "level_check": true,
+        "reliability_check": true,
+        "frequency_check": true,
+        "status_check": true
+      },
+      "errors": [],
+      "warnings": [],
+      "timestamp": "2026-03-18T00:24:15.675270"
+    }
+  ]
+}

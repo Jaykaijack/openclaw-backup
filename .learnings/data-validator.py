@@ -76,6 +76,8 @@ class DataValidator:
         "guba": DataSource("股吧", DataSourceLevel.C, "http://guba.eastmoney.com", 300, 0.65),
         "xueqiu": DataSource("雪球", DataSourceLevel.C, "http://xueqiu.com", 300, 0.70),
         "weibo": DataSource("微博", DataSourceLevel.C, "http://weibo.com", 300, 0.60),
+        "douyin": DataSource("抖音", DataSourceLevel.C, "http://www.douyin.com", 300, 0.55),
+        "kuaishou": DataSource("快手", DataSourceLevel.C, "http://www.kuaishou.com", 300, 0.55),
     }
     
     # 数据时效性要求（秒）
@@ -84,6 +86,7 @@ class DataValidator:
         "intraday": 300,      # 日内数据：5分钟内
         "daily": 86400,       # 日频数据：24小时内
         "weekly": 604800,     # 周频数据：7天内
+        "historical": 2592000, # 历史数据：30天内
     }
     
     def __init__(self, log_file: Optional[Path] = None):

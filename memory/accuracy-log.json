@@ -1,0 +1,43 @@
+{
+  "predictions": [
+    {
+      "id": 0,
+      "time": "2026-03-18T00:17:50.694073",
+      "category": "情绪",
+      "prediction": "退潮→冰点",
+      "confidence": 0.6,
+      "verified": true,
+      "actual": "修复",
+      "correct": false,
+      "verified_time": "2026-03-18T00:17:50.694925"
+    },
+    {
+      "id": 1,
+      "time": "2026-03-18T00:17:50.694200",
+      "category": "策略",
+      "prediction": "防守看戏，轻仓试错",
+      "confidence": 0.7,
+      "verified": true,
+      "actual": "防守正确",
+      "correct": true,
+      "verified_time": "2026-03-18T00:17:50.695539"
+    },
+    {
+      "id": 2,
+      "time": "2026-03-18T00:17:50.694299",
+      "category": "风险",
+      "prediction": "化工板块补跌",
+      "confidence": 0.8,
+      "verified": true,
+      "actual": "化工补跌",
+      "correct": false,
+      "verified_time": "2026-03-18T00:17:50.696126"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "verified": 3,
+    "correct": 1,
+    "accuracy": 0.3333333333333333
+  }
+}

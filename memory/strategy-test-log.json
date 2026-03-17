@@ -1,0 +1,101 @@
+[
+  {
+    "timestamp": "2026-03-18T00:24:15.671387",
+    "suites": [
+      {
+        "suite": "策略逻辑测试",
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "tests": [
+          {
+            "name": "情绪判断逻辑",
+            "category": "logic",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.004291534423828125
+          },
+          {
+            "name": "策略信号生成",
+            "category": "logic",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.001430511474609375
+          },
+          {
+            "name": "仓位计算",
+            "category": "logic",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.0016689300537109375
+          }
+        ]
+      },
+      {
+        "suite": "数据准确性测试",
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "tests": [
+          {
+            "name": "数据源可用性",
+            "category": "data",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.021696090698242188
+          },
+          {
+            "name": "数据时效性",
+            "category": "data",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.0059604644775390625
+          },
+          {
+            "name": "数据一致性",
+            "category": "data",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.0016689300537109375
+          }
+        ]
+      },
+      {
+        "suite": "风险控制测试",
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "tests": [
+          {
+            "name": "止损触发",
+            "category": "risk",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.0016689300537109375
+          },
+          {
+            "name": "仓位限制",
+            "category": "risk",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.00095367431640625
+          },
+          {
+            "name": "回撤控制",
+            "category": "risk",
+            "status": "passed",
+            "error": null,
+            "duration_ms": 0.0026226043701171875
+          }
+        ]
+      }
+    ],
+    "total_tests": 9,
+    "total_passed": 9,
+    "total_failed": 0,
+    "success_rate": 1.0
+  }
+]

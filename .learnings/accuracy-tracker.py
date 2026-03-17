@@ -95,19 +95,40 @@ class AccuracyTracker:
     
     def _compare_direction(self, pred, actual):
         """比较方向是否一致"""
-        positive_words = ['涨', '强', '多', '买', '进攻']
-        negative_words = ['跌', '弱', '空', '卖', '防守']
+        # 情绪方向映射
+        emotion_positive = ['修复', '高潮', '回暖', '反弹']
+        emotion_negative = ['退潮', '冰点', '下跌', '调整']
         
-        pred_positive = any(w in pred for w in positive_words)
-        pred_negative = any(w in pred for w in negative_words)
-        actual_positive = any(w in actual for w in positive_words)
-        actual_negative = any(w in actual for w in negative_words)
+        # 策略方向映射
+        strategy_positive = ['涨', '强', '多', '买', '进攻', '重仓']
+        strategy_negative = ['跌', '弱', '空', '卖', '防守', '轻仓', '看戏']
         
-        if pred_positive and actual_positive:
+        # 检查情绪方向
+        pred_emotion_pos = any(w in pred for w in emotion_positive)
+        pred_emotion_neg = any(w in pred for w in emotion_negative)
+        actual_emotion_pos = any(w in actual for w in emotion_positive)
+        actual_emotion_neg = any(w in actual for w in emotion_negative)
+        
+        # 检查策略方向
+        pred_strategy_pos = any(w in pred for w in strategy_positive)
+        pred_strategy_neg = any(w in pred for w in strategy_negative)
+        actual_strategy_pos = any(w in actual for w in strategy_positive)
+        actual_strategy_neg = any(w in actual for w in strategy_negative)
+        
+        # 情绪方向一致
+        if pred_emotion_pos and actual_emotion_pos:
             return True
-        if pred_negative and actual_negative:
+        if pred_emotion_neg and actual_emotion_neg:
             return True
-        return False
+        
+        # 策略方向一致
+        if pred_strategy_pos and actual_strategy_pos:
+            return True
+        if pred_strategy_neg and actual_strategy_neg:
+            return True
+        
+        # 完全匹配
+        return pred == actual
     
     def get_accuracy(self, category=None, days=7):
         """获取准确率"""
