@@ -12,6 +12,78 @@
       "zip_url": "https://lightmake.site/api/v1/download?slug=tushare-data",
       "source": "skillhub",
       "version": "1.0.7"
+    },
+    "tushare-finance": {
+      "name": "tushare-finance",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=tushare-finance",
+      "source": "skillhub",
+      "version": "2.0.6"
+    },
+    "akshare-stock": {
+      "name": "A股量化 AkShare",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=akshare-stock",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "akshare-finance": {
+      "name": "Akshare Finance",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=akshare-finance",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "akshare-cn-market": {
+      "name": "AKShare CN Market",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=akshare-cn-market",
+      "source": "skillhub",
+      "version": "1.2.0"
+    },
+    "stock-monitor-skill": {
+      "name": "Stock Monitor",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=stock-monitor-skill",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "a-stock-monitor": {
+      "name": "A Stock Monitor",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=a-stock-monitor",
+      "source": "skillhub",
+      "version": "1.1.2"
+    },
+    "stock-analysis": {
+      "name": "Stock Analysis",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=stock-analysis",
+      "source": "skillhub",
+      "version": "6.2.0"
+    },
+    "fundamental-stock-analysis": {
+      "name": "Fundamental Stock Analysis",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=fundamental-stock-analysis",
+      "source": "skillhub",
+      "version": "1.0.5"
+    },
+    "stock-market-pro": {
+      "name": "Stock Market Pro",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=stock-market-pro",
+      "source": "skillhub",
+      "version": "1.2.12"
+    },
+    "technical-analyst": {
+      "name": "Technical Analyst",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=technical-analyst",
+      "source": "skillhub",
+      "version": "0.1.0"
+    },
+    "stock-evaluator": {
+      "name": "Stock Evaluator",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=stock-evaluator",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "china-stock-analysis": {
+      "name": "China Stock Analysis",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=china-stock-analysis",
+      "source": "skillhub",
+      "version": "1.0.0"
     }
   }
 }
