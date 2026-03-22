@@ -11,7 +11,7 @@
     "weeklyReview": "2026-03-22T08:10:00",
     "inStreetLearning": "2026-03-22T10:34:00"
   },
-  "lastHeartbeat": "2026-03-22T10:34:00",
+  "lastHeartbeat": "2026-03-22T12:30:00",
   "todayTasks": {
     "preMarket": false,
     "auction": false,
@@ -39,7 +39,7 @@
     "a-stock-monitor"
   ],
   "pendingTasks": {
-    "githubSync": "网络问题待解决",
+    "githubSync": "✅ 已完成 - 2026-03-22 12:00",
     "braveApiKey": "待配置",
     "tushareToken": "待配置"
   },
