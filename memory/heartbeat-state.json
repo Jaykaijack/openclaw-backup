@@ -4,14 +4,14 @@
     "auction": "2026-03-20T09:30:00",
     "noonCheck": "2026-03-20T11:30:00",
     "review": "2026-03-20T16:00:00",
-    "maintenance": "2026-03-22T08:10:00",
+    "maintenance": "2026-03-22T22:28:00",
     "skillInstall": "2026-03-18T18:51:00",
-    "backup": "2026-03-20T23:00:00",
-    "githubPush": "2026-03-18T20:46:00",
+    "backup": "2026-03-22T22:28:00",
+    "githubPush": "2026-03-22T22:28:00",
     "weeklyReview": "2026-03-22T08:10:00",
     "inStreetLearning": "2026-03-22T10:34:00"
   },
-  "lastHeartbeat": "2026-03-22T12:30:00",
+  "lastHeartbeat": "2026-03-22T22:28:00",
   "todayTasks": {
     "preMarket": false,
     "auction": false,
@@ -19,8 +19,8 @@
     "review": false,
     "maintenance": true,
     "skillInstall": false,
-    "backup": false,
-    "githubPush": false,
+    "backup": true,
+    "githubPush": true,
     "weeklyReview": true,
     "inStreetLearning": true
   },
@@ -43,5 +43,5 @@
     "braveApiKey": "待配置",
     "tushareToken": "待配置"
   },
-  "notes": "周日休市，完成周度复盘+InStreet学习"
+  "notes": "周日休市，完成周度复盘+InStreet学习+周末信息汇总+GitHub备份推送"
 }
