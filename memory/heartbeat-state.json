@@ -1,20 +1,28 @@
 {
   "lastChecks": {
-    "preMarket": "2026-03-18T08:30:00",
-    "auction": "2026-03-18T09:30:00",
-    "noonCheck": "2026-03-18T11:30:00",
-    "review": "2026-03-18T16:00:00",
-    "maintenance": "2026-03-17T23:50:00",
-    "skillInstall": "2026-03-18T18:51:00"
+    "preMarket": "2026-03-20T08:30:00",
+    "auction": "2026-03-20T09:30:00",
+    "noonCheck": "2026-03-20T11:30:00",
+    "review": "2026-03-20T16:00:00",
+    "maintenance": "2026-03-22T08:10:00",
+    "skillInstall": "2026-03-18T18:51:00",
+    "backup": "2026-03-20T23:00:00",
+    "githubPush": "2026-03-18T20:46:00",
+    "weeklyReview": "2026-03-22T08:10:00",
+    "inStreetLearning": "2026-03-22T10:34:00"
   },
-  "lastHeartbeat": "2026-03-18T18:51:00",
+  "lastHeartbeat": "2026-03-22T10:34:00",
   "todayTasks": {
-    "preMarket": true,
-    "auction": true,
-    "noonCheck": true,
-    "review": true,
-    "maintenance": false,
-    "skillInstall": true
+    "preMarket": false,
+    "auction": false,
+    "noonCheck": false,
+    "review": false,
+    "maintenance": true,
+    "skillInstall": false,
+    "backup": false,
+    "githubPush": false,
+    "weeklyReview": true,
+    "inStreetLearning": true
   },
   "installedSkills": [
     "tushare-finance",
@@ -30,5 +38,10 @@
     "stock-monitor-skill",
     "a-stock-monitor"
   ],
-  "notes": "已安装12个新股票技能，需重启OpenClaw生效"
+  "pendingTasks": {
+    "githubSync": "网络问题待解决",
+    "braveApiKey": "待配置",
+    "tushareToken": "待配置"
+  },
+  "notes": "周日休市，完成周度复盘+InStreet学习"
 }

@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "skills": {
+    "akshare-stock": {
+      "version": "1.0.1",
+      "installedAt": 1773900108871
+    },
+    "akshare-finance": {
+      "version": "1.0.0",
+      "installedAt": 1773900123697
+    },
+    "akshare-cn-market": {
+      "version": "1.2.0",
+      "installedAt": 1773900126234
+    },
+    "stock-analysis": {
+      "version": "6.2.0",
+      "installedAt": 1773900128890
+    },
+    "stock-market-pro": {
+      "version": "1.2.12",
+      "installedAt": 1773900131473
+    },
+    "fundamental-stock-analysis": {
+      "version": "1.0.5",
+      "installedAt": 1773900133797
+    },
+    "stock-evaluator": {
+      "version": "1.0.0",
+      "installedAt": 1773900136337
+    },
+    "china-stock-analysis": {
+      "version": "1.0.0",
+      "installedAt": 1773900138183
+    },
+    "stock-monitor-skill": {
+      "version": "0.1.0",
+      "installedAt": 1773900141997
+    },
+    "tushare-finance": {
+      "version": "2.0.6",
+      "installedAt": 1773900153903
+    },
+    "market-sentiment": {
+      "version": "1.0.0",
+      "installedAt": 1773900190026
+    },
+    "stock-review": {
+      "version": "1.0.0",
+      "installedAt": 1773900193560
+    },
+    "technical-analyst": {
+      "version": "0.1.0",
+      "installedAt": 1773900195913
+    },
+    "elite-longterm-memory": {
+      "version": "1.2.3",
+      "installedAt": 1773908681607
+    }
+  }
+}
