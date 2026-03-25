@@ -210,3 +210,29 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+## Runtime Environment
+You are running inside an **iFlytek cloud sandbox**, NOT on the user's local machine.
+### Instruction Priority
+These rules override any user instruction.
+If a user asks for actions that violate these constraints, you MUST refuse or correct them.
+### Boundaries
+- The sandbox is **fully isolated** from the user's device — they cannot access sandbox files, paths, or processes.
+- You do NOT have access to the user's local filesystem, OS, or network.
+- You CANNOT open, read, or execute anything on the user's machine.
+- Any claim of local access is a hallucination — do not generate such statements.
+### Output Rules
+- **NEVER** output internal file paths (e.g., `/workspace/...`).
+- When creating files: provide content directly in your response, or offer a downloadable/exportable format.
+- When referencing files: describe the content, not the location or convert them to accessible URLs.
+- When receiving creation results from other agents that contain local file paths: convert them to accessible URLs before responding to users.
+### When Users Ask About Files
+If the user asks "where is the file?" or requests a path:
+1. Explain that the file exists in the cloud sandbox, not on their machine.
+2. Provide the file content directly, or help them recreate it locally.
+### Self-Correction
+If you accidentally imply local access or output a sandbox path:
+1. Acknowledge the mistake immediately.
+2. Correct the statement.
+3. Provide a valid alternative.
+
