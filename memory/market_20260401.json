@@ -1,0 +1,363 @@
+{
+  "date": "2026-04-01",
+  "market": {
+    "上涨": 4227.0,
+    "涨停": 66.0,
+    "真实涨停": 59.0,
+    "st st*涨停": 9.0,
+    "下跌": 853.0,
+    "跌停": 15.0,
+    "真实跌停": 11.0,
+    "st st*跌停": 9.0,
+    "平盘": 102.0,
+    "停牌": 12.0,
+    "活跃度": "81.38%",
+    "统计日期": "2026-04-01 15:00:00"
+  },
+  "sentiment": {
+    "score": 46.38,
+    "label": "冰点",
+    "emoji": "❄️",
+    "up_down_ratio": 4.95,
+    "limit_ratio": 4.12,
+    "activity": 81.38
+  },
+  "limit_pool": [
+    {
+      "code": "002269",
+      "name": "美邦服饰",
+      "change_pct": 10.179640769958496,
+      "board_count": 1
+    },
+    {
+      "code": "600249",
+      "name": "两面针",
+      "change_pct": 10.047096252441406,
+      "board_count": 1
+    },
+    {
+      "code": "002902",
+      "name": "铭普光磁",
+      "change_pct": 10.015290260314941,
+      "board_count": 1
+    },
+    {
+      "code": "300834",
+      "name": "星辉环材",
+      "change_pct": 20.0,
+      "board_count": 2
+    },
+    {
+      "code": "600488",
+      "name": "津药药业",
+      "change_pct": 9.923664093017578,
+      "board_count": 4
+    },
+    {
+      "code": "601083",
+      "name": "锦江航运",
+      "change_pct": 10.042552947998047,
+      "board_count": 1
+    },
+    {
+      "code": "603687",
+      "name": "大胜达",
+      "change_pct": 10.0,
+      "board_count": 1
+    },
+    {
+      "code": "603803",
+      "name": "瑞斯康达",
+      "change_pct": 9.967845916748047,
+      "board_count": 1
+    },
+    {
+      "code": "002432",
+      "name": "九安医疗",
+      "change_pct": 10.002717971801758,
+      "board_count": 1
+    },
+    {
+      "code": "600666",
+      "name": "奥瑞德",
+      "change_pct": 10.0,
+      "board_count": 1
+    },
+    {
+      "code": "002560",
+      "name": "通达股份",
+      "change_pct": 10.009267807006836,
+      "board_count": 2
+    },
+    {
+      "code": "605006",
+      "name": "山东玻纤",
+      "change_pct": 10.01137638092041,
+      "board_count": 1
+    },
+    {
+      "code": "601872",
+      "name": "招商轮船",
+      "change_pct": 10.024450302124023,
+      "board_count": 1
+    },
+    {
+      "code": "600724",
+      "name": "宁波富达",
+      "change_pct": 10.082645416259766,
+      "board_count": 1
+    },
+    {
+      "code": "002923",
+      "name": "润都股份",
+      "change_pct": 10.019145011901855,
+      "board_count": 1
+    },
+    {
+      "code": "600545",
+      "name": "卓郎智能",
+      "change_pct": 9.89011001586914,
+      "board_count": 1
+    },
+    {
+      "code": "002579",
+      "name": "中京电子",
+      "change_pct": 10.02685832977295,
+      "board_count": 1
+    },
+    {
+      "code": "603248",
+      "name": "锡华科技",
+      "change_pct": 9.985369682312012,
+      "board_count": 1
+    },
+    {
+      "code": "605289",
+      "name": "罗曼股份",
+      "change_pct": 10.001055717468262,
+      "board_count": 1
+    },
+    {
+      "code": "000815",
+      "name": "美利云",
+      "change_pct": 9.989372253417969,
+      "board_count": 1
+    },
+    {
+      "code": "601133",
+      "name": "柏诚股份",
+      "change_pct": 9.976662635803223,
+      "board_count": 1
+    },
+    {
+      "code": "000534",
+      "name": "万泽股份",
+      "change_pct": 9.988713264465332,
+      "board_count": 1
+    },
+    {
+      "code": "603296",
+      "name": "华勤技术",
+      "change_pct": 9.996255874633789,
+      "board_count": 1
+    },
+    {
+      "code": "603949",
+      "name": "雪龙集团",
+      "change_pct": 9.994050979614258,
+      "board_count": 1
+    },
+    {
+      "code": "002645",
+      "name": "华宏科技",
+      "change_pct": 10.029850959777832,
+      "board_count": 1
+    },
+    {
+      "code": "603912",
+      "name": "佳力图",
+      "change_pct": 10.011000633239746,
+      "board_count": 1
+    },
+    {
+      "code": "002940",
+      "name": "昂利康",
+      "change_pct": 9.996846199035645,
+      "board_count": 1
+    },
+    {
+      "code": "600643",
+      "name": "爱建集团",
+      "change_pct": 10.04273509979248,
+      "board_count": 1
+    },
+    {
+      "code": "601579",
+      "name": "会稽山",
+      "change_pct": 9.982068061828613,
+      "board_count": 1
+    },
+    {
+      "code": "600594",
+      "name": "益佰制药",
+      "change_pct": 10.1010103225708,
+      "board_count": 1
+    },
+    {
+      "code": "300149",
+      "name": "睿智医药",
+      "change_pct": 20.0,
+      "board_count": 1
+    },
+    {
+      "code": "600851",
+      "name": "海欣股份",
+      "change_pct": 9.948979377746582,
+      "board_count": 1
+    },
+    {
+      "code": "000078",
+      "name": "海王生物",
+      "change_pct": 9.872611999511719,
+      "board_count": 1
+    },
+    {
+      "code": "605162",
+      "name": "新中港",
+      "change_pct": 9.991386413574219,
+      "board_count": 2
+    },
+    {
+      "code": "002821",
+      "name": "凯莱英",
+      "change_pct": 10.002708435058594,
+      "board_count": 2
+    },
+    {
+      "code": "605287",
+      "name": "德才股份",
+      "change_pct": 10.00487995147705,
+      "board_count": 1
+    },
+    {
+      "code": "000788",
+      "name": "北大医药",
+      "change_pct": 10.067113876342773,
+      "board_count": 1
+    },
+    {
+      "code": "603937",
+      "name": "丽岛新材",
+      "change_pct": 10.014410018920898,
+      "board_count": 1
+    },
+    {
+      "code": "603727",
+      "name": "博迈科",
+      "change_pct": 10.005266189575195,
+      "board_count": 1
+    },
+    {
+      "code": "002083",
+      "name": "孚日股份",
+      "change_pct": 10.02548885345459,
+      "board_count": 1
+    },
+    {
+      "code": "603778",
+      "name": "国晟科技",
+      "change_pct": 10.0,
+      "board_count": 1
+    },
+    {
+      "code": "002624",
+      "name": "完美世界",
+      "change_pct": 10.017074584960938,
+      "board_count": 1
+    },
+    {
+      "code": "300436",
+      "name": "广生堂",
+      "change_pct": 20.002016067504883,
+      "board_count": 1
+    },
+    {
+      "code": "603193",
+      "name": "润本股份",
+      "change_pct": 9.982014656066895,
+      "board_count": 1
+    },
+    {
+      "code": "603121",
+      "name": "华培动力",
+      "change_pct": 9.98781967163086,
+      "board_count": 1
+    },
+    {
+      "code": "603158",
+      "name": "腾龙股份",
+      "change_pct": 10.035842895507812,
+      "board_count": 1
+    },
+    {
+      "code": "688488",
+      "name": "艾迪药业",
+      "change_pct": 20.0,
+      "board_count": 1
+    },
+    {
+      "code": "301392",
+      "name": "汇成真空",
+      "change_pct": 19.996238708496094,
+      "board_count": 1
+    },
+    {
+      "code": "603985",
+      "name": "恒润股份",
+      "change_pct": 10.0,
+      "board_count": 1
+    },
+    {
+      "code": "301312",
+      "name": "智立方",
+      "change_pct": 20.0,
+      "board_count": 1
+    },
+    {
+      "code": "002408",
+      "name": "齐翔腾达",
+      "change_pct": 9.966216087341309,
+      "board_count": 1
+    },
+    {
+      "code": "002558",
+      "name": "巨人网络",
+      "change_pct": 9.98731803894043,
+      "board_count": 1
+    },
+    {
+      "code": "600105",
+      "name": "永鼎股份",
+      "change_pct": 9.985580444335938,
+      "board_count": 1
+    },
+    {
+      "code": "601515",
+      "name": "衢州东峰",
+      "change_pct": 9.90338134765625,
+      "board_count": 1
+    },
+    {
+      "code": "002639",
+      "name": "雪人集团",
+      "change_pct": 9.994154930114746,
+      "board_count": 1
+    },
+    {
+      "code": "301188",
+      "name": "力诺药包",
+      "change_pct": 20.011735916137695,
+      "board_count": 1
+    }
+  ]
+}

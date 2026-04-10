@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-08",
+  "time": "16:11:48",
+  "market_stats": {
+    "up_count": 0,
+    "down_count": 0,
+    "flat_count": 0,
+    "limit_up": 123,
+    "limit_down": 4,
+    "big_up": 0,
+    "big_down": 0,
+    "up_ratio": 0.5
+  },
+  "sentiment": {
+    "score": 40,
+    "status": "☀️ 修复",
+    "detail": "市场情绪回暖，赚钱效应良好，可积极参与",
+    "factors": [
+      "涨跌比数据缺失(中性)",
+      "涨停数123只(极热+25)",
+      "跌停数4只(安全+10)",
+      "最高4板(正常+5)"
+    ]
+  },
+  "lianban": {
+    "max": 4,
+    "distribution": {
+      "1": 112,
+      "2": 9,
+      "3": 1,
+      "4": 1
+    }
+  }
+}

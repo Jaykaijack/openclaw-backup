@@ -1,0 +1,88 @@
+{
+  "date": "2026-04-03",
+  "time": "16:05:27",
+  "market_stats": {
+    "total_stocks": 5193,
+    "up_count": 697,
+    "down_count": 4461,
+    "flat_count": 35,
+    "limit_up": 51,
+    "limit_down": 40,
+    "big_up": 123,
+    "big_down": 461,
+    "up_ratio": 13.51
+  },
+  "sentiment": {
+    "score": 10.03,
+    "status": "冰点",
+    "emoji": "❄️",
+    "description": "市场极度低迷，恐慌情绪蔓延，关注反弹机会",
+    "scores": {
+      "up_score": 5.4,
+      "limit_score": 3.82,
+      "big_score": 0.8
+    }
+  },
+  "top_limit_up": [
+    {
+      "code": "sz300006",
+      "name": "莱美药业",
+      "change": 20.07,
+      "amount": 1472216323.0
+    },
+    {
+      "code": "sh688485",
+      "name": "九州一轨",
+      "change": 20.02,
+      "amount": 628378188.0
+    },
+    {
+      "code": "sz300626",
+      "name": "华瑞股份",
+      "change": 20.01,
+      "amount": 739771096.0
+    },
+    {
+      "code": "sh688146",
+      "name": "中船特气",
+      "change": 20.01,
+      "amount": 1496903947.0
+    },
+    {
+      "code": "sh688226",
+      "name": "威腾电气",
+      "change": 20.0,
+      "amount": 1395741986.0
+    },
+    {
+      "code": "sz300812",
+      "name": "易天股份",
+      "change": 20.0,
+      "amount": 850450986.0
+    },
+    {
+      "code": "sz300608",
+      "name": "思特奇",
+      "change": 20.0,
+      "amount": 499598868.0
+    },
+    {
+      "code": "sh688205",
+      "name": "德科立",
+      "change": 20.0,
+      "amount": 3894355661.0
+    },
+    {
+      "code": "sh688195",
+      "name": "腾景科技",
+      "change": 19.22,
+      "amount": 3639801903.0
+    },
+    {
+      "code": "sz300400",
+      "name": "劲拓股份",
+      "change": 13.64,
+      "amount": 1137143502.0
+    }
+  ]
+}

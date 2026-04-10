@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-02",
+  "time": "16:05:38",
+  "market": {
+    "total": 5000,
+    "up": 4050,
+    "down": 950,
+    "up_ratio": 81.0,
+    "limit_up": 28,
+    "limit_down": 5
+  },
+  "zt_pool": {
+    "count": 28,
+    "first_board": 22,
+    "max_lb": 5,
+    "lb_stats": {
+      "1": 22,
+      "2": 2,
+      "3": 3,
+      "5": 1
+    }
+  },
+  "sentiment": {
+    "score": 65,
+    "level": "recover",
+    "label": "📈 修复",
+    "reasons": [
+      "涨停28只,涨跌停比84.8%(+20)",
+      "最高5连板(+30)",
+      "首板22只(+15)"
+    ]
+  }
+}
